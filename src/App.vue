@@ -54,7 +54,7 @@ const handleTransitionEnd = () => {
 onMounted(() => {
   for (let i = 1; i < 413; i++) {
     slides.value.push(
-      `../public/1741097062991-648bf582-2380-43b3-b11e-e5f74c650ba1_${i}.jpg`
+      `/public/asset/1741097062991-648bf582-2380-43b3-b11e-e5f74c650ba1_${i}.jpg`
     );
   }
 });
